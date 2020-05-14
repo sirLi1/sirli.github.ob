@@ -1,0 +1,37 @@
+# These are supported funding model platforms
+
+github: # Replace with up to 4 GitHub Sponsors-enabled usernames e.g., [user1, user2]
+patreon: # Replace with a single Patreon username
+open_collective: # Replace with a single Open Collective username
+ko_fi: # Replace with a single Ko-fi username
+tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
+community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
+liberapay: # Replace with a single Liberapay username
+issuehunt: # Replace with a single IssueHunt username
+otechie: # Replace with a single Otechie username
+custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<img src="../img/微信图片_20200513162739.jpg" onclick="clickme()"/>
+		<div id="demo" >
+			<h2>范纪元</h2>	
+	        <br>姓名：范纪元
+		    <br>性别：男
+		    <br>爱好：毛片
+		    <br>点击照片查看详细内容
+			<br>
+			
+       </div>
+	   <script type="text/javascript">
+	   	function clickme(){
+			str='<h2>范纪元身高1.74米 体重180斤撩妹全靠一张嘴，非传统撩妹方式，一旦看上绝不放过';
+			document.getElementById("demo").innerHTML=str;
+					}
+	   </script>
+	</body>
+</html>
